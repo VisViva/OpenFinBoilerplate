@@ -21,7 +21,7 @@ var initOpenFin = function(){
 };
 
 var notify = new fin.desktop.Notification({
-  url: "views/notifcations/info.html",
+  url: "views/notifications/info.html",
   message: "Some initial message.",
   onClick: function(){
     console.log("clicked");

@@ -6,7 +6,7 @@
     self.sendMessageToApplication("Some message from within notification.");
   });
   function onNotificationMessage(message){
-    console.log(JSON.stringify(message));
+    document.body.innerText = message;
   };
   </script>
 </head>
