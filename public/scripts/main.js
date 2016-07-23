@@ -2,9 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
   try {
     fin.desktop.main(function() {
       initOpenFin();
+      notify();
     });
   } catch (exception) {
-      console.log(exception);
+    console.log(exception);
   };
 });
 
@@ -18,3 +19,26 @@ var initOpenFin = function(){
     openfinAbsent.classList.toggle('invisible');
   });
 };
+
+var notify = new fin.desktop.Notification({
+  url: "views/notifcations/info.html",
+  message: "Some initial message.",
+  onClick: function(){
+    console.log("clicked");
+  },
+  onClose: function(){
+    console.log("closed");
+  },
+  onDismiss: function(){
+    console.log("dismissed");
+  },
+  onError: function(reason){
+    console.log("error: " + reason);
+  },
+  onMessage: function(message){
+    console.log("message: ", message);
+  },
+  onShow: function(){
+    console.log("shown");
+  }
+});
