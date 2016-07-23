@@ -1,0 +1,18 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "OpenFin Boilerplate",
+        "description": "OpenFin Boilerplate",
+        "url": "http://localhost:8080",
+        "uuid": "OpenfinPOC-4uu6qeao4nx7lt69kvmx36usor",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "description": "OpenFin Boilerplate",
+        "name": "OpenFin Boilerplate"
+    }
+}
