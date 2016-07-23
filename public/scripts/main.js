@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   try {
     fin.desktop.main(function() {
       initOpenFin();
-      notify();
+      for (var i = 0; i < 10; ++i) notify();
     });
   } catch (exception) {
     console.log(exception);
