@@ -1,0 +1,22 @@
+{
+  "name": "openfin_boilerplate",
+  "version": "1.0.0",
+  "description": "An OpenFin boilerplate application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VisViva/OpenFinBoilerplate.git"
+  },
+  "author": "Vis Viva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VisViva/OpenFinBoilerplate/issues"
+  },
+  "homepage": "https://github.com/VisViva/OpenFinBoilerplate#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
