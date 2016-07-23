@@ -12,6 +12,7 @@
         "version": "beta"
     },
     "shortcut": {
+        "company": "OpenFin",
         "description": "OpenFin Boilerplate",
         "name": "OpenFin Boilerplate"
     }
